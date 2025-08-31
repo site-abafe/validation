@@ -1,0 +1,88 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Work+Sans:wght@400;500;600;700;800;900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <title>ABAFE-CLIENTE</title>
+    <link rel="stylesheet" href="validation.css" />
+  </head>
+
+  <body>
+    <div id="root">
+      <div
+        class="flex flex-col items-center m-4 justify-center mx-auto max-w-xl"
+      >
+        <p
+          class="w-full bg-lightGreen py-5 px-8 font-bold rounded-2xl uppercase text-center text-darkGreen text-xl tracking-wider shadow"
+        >
+          Documento válido
+        </p>
+        <p class="px-3 mt-3 text-sm sm:text-base">
+          ABAFE atesta que
+          <span class="font-semibold capitalize"
+            >Danielle Mascarenhas Cravieé</span
+          >
+          é estudante e esta regularmente matriculado(a) em Biologia
+          na instituição IFRS.
+        </p>
+        <div
+          class="relative bg-cover bg-no-repeat bg-center] flex gap-4 items-start mt-3 border border-gray-300 rounded-2xl p-3 sm:p-8 text-sm sm:text-base min-w-[340px] min-h-[230px] sm:w-[500px] h-auto sm:h-80 overflow-hidden mb-6 shadow"
+        >
+          <img
+            src="image/icone75x75.png"
+            alt="abafe-icon"
+            class="absolute z-10 w-10 bottom-3 sm:bottom-5 right-3 sm:right-5 opacity-100 select-none"
+          /><img
+            src="image/fingerprint.svg"
+            alt="fingerprint"
+            class="absolute -z-10 top-0 left-0 opacity-10 select-none"
+          />
+          <div class="leading-4 flex flex-col justify-between">
+            <img
+              class="w-28 sm:w-32 rounded-xl shadow mb-2"
+              src="image/dani.jpg"
+              alt="foto do aluno"
+            /><span class="text-sm text-darkGreen">Cód. Uso:</span>
+            <p class="capitalize text-description">d5e8f759</p>
+          </div>
+          <div class="leading-4">
+            <p class="font-semibold capitalize text-description text-lg mb-1">
+              Danielle Mascarenhas Cravieé
+            </p>
+            <span class="text-sm text-darkGreen">Instituição:</span>
+            <p class="capitalize text-description mb-1">IFRS</p>
+            <span class="text-sm text-darkGreen">Curso:</span>
+            <p class="capitalize text-description mb-1">Biologia</p>
+            <span class="text-sm text-darkGreen">CPF:</span>
+            <p class="capitalize text-description mb-1">049.813.016-93</p>
+            <span class="text-sm text-darkGreen">Emissor:</span>
+            <p class="capitalize text-description">ABAFE</p>
+          </div>
+        </div>
+        <div
+          class="mt-3 max-w-xl p-3 sm:p-6 shadow border border-gray-200 rounded-2xl"
+        >
+          <h3 class="font-semibold mb-4 text-darkGreen">
+            Chave do Certificado:
+          </h3>
+          <p
+            class="flex flex-col gap-4 break-all text-center text-xs sm:text-sm mb-4 text-gray-600"
+          >
+            <span class="tracking-widest font-light"
+              >-----BEGIN CERTIFICATE-----</span
+            ><span class="text-start"
+              >MIIDzjCCArgCasdafaAQEwZ6FlpGMwYTELMAkGA1UEBhMCQlIxEzd5e8f759NVBAoTCklDUC1CcmFzaWwxDjAMBgNVBAsTBUFiYWZlMS0wKwqwerfasYDVQQDEyRGZXJuYW5kaW5vIFRhdmFyZXMgZG9zIFNhbnRvcyBKdW5pb3KggdgwgdWkgdIwgc8xCzAJBgNVBAYTAkJSMRMwEQYDVQQKDApJQ1AtQnJhc2lsMR4wHAYDVQQLDBVBQyBDZXJ0aXNpZ24gTXVsdGlwbGExFzAVBgNVBAsMDjAxNTU0Mjg1MDAwMTc1MRkwFwYDVQQLDBBWaWRlb0NvbmZlcmVuY2lhMRswGQYDVQQLDBJBc3NpbmF0dXJhIFRpcG8gQTMxOjA4BgNVBAMMMUFTU09DSUFDQU8gQlJBU0lMRUlSQSBERSBBUFJFTkRJWkFETyBFIEZPQ08gTk8gRVMwCwYJKoZIhvcNAQELAhEAsjqFi8oOVpBPOhFL1tlqyzAiGA8yMDI1MDgyNjEzMTU1NloYDzIwMjcwODI2MTMxNTU0WjCBrjA8BgVgTAEKATEzEzEwMDAwMDAwMDA2NDMyMTU1NjU3MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMG4GBWBMAQoCMWUTY0lGUlMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBHcmFkdWFjYW8gICAgICBFZHVjYWNhbyBGaW5hbmNlaXJhICAgICAgICAgICBQb3J0byBBbGVncmVSUzB6MEwGCCsGAQUFBwEBBEAwPjA8BggrBgEFBQcwAoYwaHR0cDovL2NhLmxhY3VuYXNvZnR3YXJlLmNvbS9jZXJ0cy9lZWEtYWJhZmUucDdiMAkGA1UdOAQCBQAwHwYDVR0jBBgwFoAUPbqdvo8sH2SSnOpnzlKyclABzZ0wCwYJKoZIhvcNAQELA4IBAQBWzs2f4NPVz1a6dHpj7fz2BR+miAwChM0BaepLrMM10Ql1R+VkulpwpuWkWbrg9mNzgklBNNBfOPSxfcGoXNUq/slhkyLxKJkK+S9w1oQjaUKw4e3caN3JusRqA3aYQ5+1/L5Zr5sQ6PFJJ+fabXIjnOrve4BXpxCwn0aiApmRQk5HoYEaqrVueUbl9pVBJI6zhm53QXmrAqiMF7ujivB/Ye/L3rtBPjhHToVwwHAlEvVMBeJrcsGqpPQxcPryehS6Smm4RqfPmCMtuX/kRzkhk1qH0Z1zagRGaK3ewlLdCwN0Ceu7H0LkigO2Z8hwuTg0YqUuNoqDZMHJpQnxfBa4</span
+            ><span class="tracking-widest font-light"
+              >-----END CERTIFICATE-----</span
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
